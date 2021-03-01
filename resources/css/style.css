@@ -30,7 +30,7 @@ a {
 .logo_img {
   width: 184px;
   height: 92px;
-  background-image: url("/resources/img/ahoy_logo.png");
+  background-image: url("../img/ahoy_logo.png");
   background-size: contain;
   display: block;
   background-repeat: no-repeat;
