@@ -124,6 +124,7 @@ a {
   display: flex;
   margin: 0 0 0 24px;
   align-items: center;
+  cursor: pointer;
 }
 
 .account_r a {

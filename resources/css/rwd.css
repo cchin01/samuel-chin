@@ -79,6 +79,15 @@
   .box {
     width: 70%;
   }
+
+  .cheackOut_wrapper {
+    flex-direction: column;
+  }
+
+  .cheackOut_wrapper a {
+    width: 90%;
+    margin-bottom: 18px;
+  }
 }
 
 /* sm - Small devices (landscape phones, 576px and up) */

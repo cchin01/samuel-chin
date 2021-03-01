@@ -13,7 +13,7 @@ function copyLink(text) {
 
 document.querySelectorAll(".alert_ouch").forEach((item) => {
   item.addEventListener("click", (event) => {
-    alert(`真是不敢相信，你寧願去購物？Ouch`);
+    alert(`不會吧，你寧願去購物？\n或許再考慮一下？`);
   });
 });
 
@@ -30,4 +30,10 @@ btn_n.addEventListener("click", function (e) {
 
 btn_bw.addEventListener("click", function (e) {
   img.src = img_bw;
+});
+
+const cart = document.querySelector(".cart");
+
+cart.addEventListener("click", function (e) {
+  alert(`裡面空空如也~`);
 });
