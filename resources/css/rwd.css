@@ -1,0 +1,285 @@
+/* xs - Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  /*------------------------
+           HEADER
+------------------------*/
+  .header_wrapper {
+    height: 70px;
+  }
+  .logo_img {
+    width: 50px;
+  }
+
+  .account_m {
+    display: none;
+  }
+
+  .search_bar {
+    width: 100%;
+  }
+
+  .search_bar span {
+    display: none;
+  }
+
+  .cart span {
+    display: none;
+  }
+
+  .fa-shopping-cart {
+    color: #7a4dff;
+  }
+  /*------------------------
+           NAV
+------------------------*/
+  .menu_wrapper {
+    display: none;
+  }
+
+  /*------------------------
+           Product
+------------------------*/
+  .breadcrumb {
+    margin-left: 12px;
+    font-size: 10px;
+  }
+
+  .ItemPage_wrapper {
+    padding: 24px 0 0 0;
+  }
+
+  .product_info {
+    flex-wrap: wrap;
+  }
+
+  .product_info_left {
+    margin-right: 16px;
+    width: 100%;
+  }
+
+  .product_info_right {
+    padding: 0 0 12px 10px;
+    margin-top: 50px;
+  }
+
+  .hero_info_right {
+    display: none;
+  }
+
+  .product_name {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.33;
+    margin: 0 0 12px;
+  }
+  .slider {
+    width: 80%;
+  }
+
+  .box {
+    width: 70%;
+  }
+}
+
+/* sm - Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /*------------------------
+           HEADER
+------------------------*/
+  .account_m {
+    display: none;
+  }
+
+  .search_bar {
+    width: 100%;
+  }
+
+  .search_bar span {
+    display: none;
+  }
+
+  .cart span {
+    display: none;
+  }
+
+  .fa-shopping-cart {
+    color: #7a4dff;
+  }
+
+  /*------------------------
+           NAV
+------------------------*/
+  .menu {
+    padding-left: 0;
+  }
+
+  .all_categories {
+    display: none;
+  }
+  /*------------------------
+           Product
+------------------------*/
+
+  .ItemPage_wrapper {
+    padding: 24px;
+  }
+
+  .product_info {
+    flex-wrap: wrap;
+  }
+
+  .product_info_left {
+    margin-right: 16px;
+    width: 100%;
+  }
+
+  .product_info_right {
+    padding: 0 0 12px 10px;
+    margin-top: 50px;
+  }
+
+  .product_name {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.33;
+    margin: 0 0 12px;
+  }
+}
+
+/* md - Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /*------------------------
+           HEADER
+------------------------*/
+  .account_m {
+    display: none;
+  }
+
+  .search_bar {
+    width: 350px;
+  }
+
+  .fa-search {
+    display: none;
+  }
+
+  /*------------------------
+           NAV
+------------------------*/
+
+  /*------------------------
+           Product
+------------------------*/
+
+  .ItemPage_wrapper {
+    padding: 24px;
+  }
+
+  .product_info_left {
+    margin-right: 16px;
+  }
+
+  .product_info_right {
+    padding: 0 0 12px 10px;
+  }
+  .product_info_left {
+    width: 45%;
+  }
+
+  .product_name {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.33;
+    margin: 0 0 12px;
+  }
+  .store_info {
+    display: none;
+  }
+}
+
+/* lg - Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /*------------------------
+           HEADER
+------------------------*/
+  .account_r {
+    margin: 0 0 0 7px;
+  }
+
+  .search_bar {
+    width: 360px;
+  }
+
+  .fa-search {
+    display: none;
+  }
+
+  /*------------------------
+           NAV
+------------------------*/
+
+  /*------------------------
+           Product
+------------------------*/
+
+  .ItemPage_wrapper {
+    padding: 24px;
+  }
+
+  .product_info_left {
+    margin-right: 16px;
+  }
+
+  .product_info_right {
+    padding: 0 0 12px 10px;
+  }
+
+  .product_name {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.33;
+    margin: 0 0 12px;
+  }
+}
+
+/* xl - Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  /*------------------------
+           HEADER
+------------------------*/
+
+  .search_bar {
+    width: 440px;
+  }
+
+  .fa-search {
+    display: none;
+  }
+
+  /*------------------------
+           NAV
+------------------------*/
+
+  /*------------------------
+           Product
+------------------------*/
+
+  .ItemPage_wrapper {
+    padding: 24px;
+  }
+
+  .product_info_left {
+    margin-right: 16px;
+  }
+
+  .product_info_right {
+    padding: 0 0 12px 10px;
+  }
+
+  .product_name {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.33;
+    margin: 0 0 12px;
+  }
+}
